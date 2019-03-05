@@ -1,0 +1,178 @@
+<style>
+ html *{
+ font-family: 'Noto Sans', sans-serif;
+ }
+ 
+.all{
+margin: 0 20%;
+
+}
+.fullCard {
+    width: 50%;
+	height: auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin:  10% 13.6% 0 13.6%;
+	padding: 3% 6%;
+  }
+ .selector{
+   width: 62%;
+    height: auto;
+    margin: 0 13.6% 20% 13.6%;
+	padding: 5% 0;
+	
+} 
+ .container img {
+    width: 20%;
+    height: auto;
+	padding: 5%;
+	font-color: blask;
+	style: light;
+}
+	
+.title1{
+	font-size: 10px;
+	padding: 10px;
+}	
+
+.title2{
+	font-size: 10px;
+	padding: 10px;
+	style: bold;
+}	
+ 
+.boxcont{
+    text-align: left;
+	
+	padding: 10px 0px 10px 0px;
+	color: #176bef;
+}
+
+.bottomblue{
+	text-align: left;
+	font size: 50px;
+	color: 949699;
+    margin: 20px 0px 0px 0px;
+	text-align: left;
+	font-size: 13px !important;
+}
+ .blue2{
+   height: 100%
+  color: 176bef;
+  text-align: left;
+  color: #176bef;
+  margin: 0px 0 10px 0;
+  font-size: 13px !important;
+ }
+ 
+.boxcont{
+  height: 100%
+  color: 176bef;
+  margin: 10px 0 10px 0;
+  font-size: 13px !important;
+}
+
+ input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}  
+
+.boxes {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.button1 button{
+    float: left;
+    color: 176bef;
+	background-color: white;
+	border: 1px #d5d8d8;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px 20px 10px 0px;
+	}
+
+.button2 button{
+ float: right;
+ color: white;
+ background-color: #176bef;
+ border: 1px #176bef;
+ border-radius: 3px;
+ padding: 8px 27px;
+}
+
+.button2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button3 button{
+    float: right;
+    color: 949699;
+	background-color: white;
+	border: 1px #d5d8d8;
+	cursor: pointer;
+	}
+</style>
+<div align="center" class="all">
+<div align="center" class = "fullcard">
+	<div class="boxes">
+		<div align="center" class="container">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"/>
+        </div>
+		<div align="center" style="title1"><p>Sign in</p></div>
+		<div align="center" style="title2"> <p>to continue to Gmail</p></div>
+		<div class = "boxcont">
+			 <input type="text" placeholder="Email or Phone" required/>
+			    <p>Forgot email?</p>
+		</div>		
+					<div class= "bottomblue">
+		          
+						<p>Not your computer? Use Guest mode to sign in privately.</p>			    
+					</div>	
+					
+				<div class="blue2">
+                 <p>Learn more</p>
+				 </div>
+				 <!---button classes--->
+				    <div class=button1>
+							<button>Create account</button>
+					</div>
+					<div class=button2>	
+						<button>Next</button>			
+					</div>	
+		
+							
+	</div>
+	
+	</div>		
+<div align="left" class="selector">
+	<div>
+		<select name="Languages">
+			<option value="English (United States)">English (United States)</option>
+			<option value="Malayalam">Malayalam</option>
+			<option value="Hindi">Hindi</option>
+			<option value="Tamil">Tamil</option>
+		</select>
+	
+		<div class=button3 onclick="window.open('https://support.google.com/accounts?hl=en')">
+							<button>Help</button>
+					</div>
+		<div class=button3 onclick="window.open('https://accounts.google.com/TOS?loc=IN&hl=en&privacy=true')">
+							<button>Privacy</button>
+					</div>
+		<div class=button3 onclick="window.open('https://accounts.google.com/TOS?loc=IN&hl=en')">
+							<button>Terms</button>
+					</div>
+		
+	<br><br>
+	</div>
+</div>	
+
+	
+</div>

@@ -6,7 +6,7 @@ html *
 
 .hero-section{
     background-image: url(images/bg.jpg);
-    padding: 100px 100px 0px 100px;
+    padding: 50px 100px 0px 100px;
     height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -23,14 +23,14 @@ html *
 
 .bottom-headding{
     color: white;
-    font-size: 1.5em;
+    font-size: 0.5em;
     
 }
 
 .dp{
     width: 8em;
     height: auto;
-    padding-top: 2.5em;
+    padding-top: 3.5em;
 }
 
 .profile{
@@ -45,3 +45,18 @@ html *
 
 }
 
+.hero-section-bottom{
+    background-image: url(images/bg2.jpg);
+    padding: 75px 100px 50px 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.boxer{
+    background-color: rgba(255, 255, 255, 0.336);
+    
+}

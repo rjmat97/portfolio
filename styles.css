@@ -1,0 +1,129 @@
+/*master styles*/
+body {
+    margin: 0px;
+}
+
+
+}
+.containermo{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*navigation styles*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-linkwrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-linkwrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s; 
+}
+
+.nav-linkwrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-linkwrapper a:hover{
+    color: black;
+}
+
+/*portfolio*/
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+}
+
+.portfolio-img-bg{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    color: transparent;
+    font-weight: 600;
+}
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-cover {
+    width: 100%;
+    height: 300px;
+    background: rgb(230, 228, 228);
+  }
+  
+  .main-cover {
+    width: 90%;
+    height: 700px;
+    position: relative;
+    margin: -60px auto 0;
+    z-index: 1;
+    background-color: brown;
+  
+  }
+  
+  #dp {
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    margin: -10% 0 0 -10%;
+    z-index: 2;
+  }
+  
+  .dp-pic {
+    width: 100%;
+  }

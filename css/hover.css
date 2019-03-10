@@ -43,7 +43,7 @@
 }
 
 .box:hover {
-  flex: 1 1 50%;
+  flex: 1 1 100%;
 }
 
 .box:hover > img {

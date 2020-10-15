@@ -23,7 +23,7 @@ function getTime(){
 function imgrot(h,m){
     var angleh = h*30
     var anglem = (m/5)*30
-    var angles = (s*30)
+    var angles = (s/5)*30
     document.getElementById("morty").setAttribute("style", "transform: rotate(" + angleh + "deg)")
     document.getElementById("rick").setAttribute("style", "transform: rotate(" + anglem + "deg)")
     document.getElementById("portal").setAttribute("style", "transform: rotate(" + angles + "deg)")

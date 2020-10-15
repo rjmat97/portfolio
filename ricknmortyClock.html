@@ -1,7 +1,13 @@
 <html>
     <head>
         <title>RicknMortyClock</title>
-        <script src="time.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/time.js" type="text/javascript"></script>
         <style type="text/css">
             body{
                 background-color: #050505;
@@ -37,6 +43,28 @@
         </style>
     </head>
     <body onload="getTime()">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper mytone z-depth-3">
+        
+              <a id="logo-container" href="#" class="brand-logo center white-text">Reuben Jacob</a>
+              <ul class="left right hide-on-med-and-down">
+                <li><a href="index.html"class="btn-flat transparent  waves-effect waves-white white-text">Home</a></li>
+                <li><a href="about.html"class="btn-flat transparent waves-effect waves-white grey">About</a></li>
+                <li><a href="ricknmortyClock.html"class="btn-flat transparent waves-effect waves-white grey">Rick and Morty</a></li>
+                <li><a href="penguins.html"class="btn-flat transparent waves-effect waves-white grey">Penguins</a></li>
+              </ul>
+        
+        
+              <ul id="nav-mobile" class="sidenav">
+                  <li><a href="index.html" class="white-text waves-effect waves-white mytone">Home</a></li>
+                  <li><a href="about.html" class="mytone-text waves-effect waves-white">About</a></li>
+                  <li><a href="ricknmortyClock.html" class="mytone-text waves-effect waves-white">Rick and Morty</a></li>
+                  <li><a href="penguins.html" class="mytone-text waves-effect waves-white">Penguins</a></li>
+              </ul>
+              <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+            </div>
+          </nav>
+
         <div class="div1">
             <h1 id="time"></h1>
             <img class="imgA1" src="images/ricknmorty/background_cropped.png">
@@ -49,6 +77,6 @@
                 <img class="imgA1" id="rick" src="images/ricknmorty/rick.png">
                 <img class="imgA1" id="morty" src="images/ricknmorty/morty.png">
        </div>
-       
+    
     </body>
 </html>

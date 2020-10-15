@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>RicknMortyClock</title>
+        <script src="time.js" type="text/javascript"></script>
+        <style type="text/css">
+            body{
+                background-color: #050505;
+            }
+            #time{
+                text-align: center;
+                font-family: arial;
+                font-size: 50px;
+                position: relative;
+                color: rgb(185, 23, 77);
+            }
+            .div1{
+                float:left; 
+                width: 100%;
+                background-color:rgba(255, 255, 255, 0);
+            }
+            .div2 { 
+                float:left; 
+                clear: left;
+            }
+            h1{
+                color: white;
+                z-index:1;
+            }
+            .imgA1 {
+                width: 100%;
+                position: absolute;
+                z-index: 1;
+            }
+            #portal, #rick, #morty{
+                transition: all 0.3s ease;
+            }
+        </style>
+    </head>
+    <body onload="getTime()">
+        <div class="div1">
+            <h1 id="time"></h1>
+            <img class="imgA1" src="images/ricknmorty/background_cropped.png">
+        </div>
+       <div class="div1">
+                <img class="imgA1" src="images/ricknmorty/background.png">
+                <img class="imgA1" id="portal" src="images/ricknmorty/portal.png">
+                <img class="imgA1" src="images/ricknmorty/title.png">
+                <img class="imgA1"style="opacity: 50%" src="images/ricknmorty/time.png">
+                <img class="imgA1" id="rick" src="images/ricknmorty/rick.png">
+                <img class="imgA1" id="morty" src="images/ricknmorty/morty.png">
+       </div>
+       
+    </body>
+</html>

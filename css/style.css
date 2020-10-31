@@ -25,9 +25,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -56,13 +56,6 @@ footer.page-footer {
   margin: 0;
 }
 
-.mytone-text{
-  color: #051499be !important;
-}
-.mytone{
-  background-color: #051499be !important;
-}
-
 .dp{
   width: 8em;
   height: auto;
@@ -70,3 +63,4 @@ footer.page-footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}

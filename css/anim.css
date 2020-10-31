@@ -1,0 +1,17 @@
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+flex: 1 1 100%;
+}
+
+.box:hover > img {
+width: 100%;
+height: 100%;
+}
